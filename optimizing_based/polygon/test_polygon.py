@@ -7,7 +7,7 @@ from polygon import *
 from gjk_epa import *
 from cvxopt import solvers, matrix
 
-sys.path.append("../../common/") 
+sys.path.append("../") 
 import my_map as mymap
 
 def test_polygon_self():
